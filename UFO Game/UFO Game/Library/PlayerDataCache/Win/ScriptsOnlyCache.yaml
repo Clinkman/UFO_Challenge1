@@ -4,6 +4,7 @@ ScriptsOnlyBuild:
     - PlayerControler
     - Rotator
     - cameraControl
+    - move
     Unity.2D.Tilemap.Editor.dll:
     - UnityEditor.Tilemaps.GridPaintingState
     - UnityEditor.Tilemaps.GridPaletteBrushes
@@ -59,6 +60,8 @@ ScriptsOnlyBuild:
       Script: {instanceID: 11400}
     - Class: 114
       Script: {instanceID: 11496}
+    - Class: 114
+      Script: {instanceID: 20282}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -282,7 +285,7 @@ ScriptsOnlyBuild:
     className: SignalTrack
   - hash:
       serializedVersion: 2
-      Hash: ba7d017e3171d1970cbced635be3298c
+      Hash: 3ae826ecd4935f21fb3b2c7c4df343f7
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: PlayerControler
@@ -508,7 +511,13 @@ ScriptsOnlyBuild:
     assemblyName: Unity.Timeline.dll
     namespaceName: UnityEngine.Timeline
     className: PlayableTrack
+  - hash:
+      serializedVersion: 2
+      Hash: 7abb58cbb5cae7b1a612bfc8963c213d
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: move
   platform: 5
   scenePathNames:
   - Assets/Scenes/SampleScene.unity
-  playerPath: D:/GitHub/ufo/UFO_Tutorial1/UFO Game/Build/UFO Game.exe
+  playerPath: D:/GitHub/ufo/UFO_Tutorial1/UFO Game/BuildChallenge/UFO Game.exe
